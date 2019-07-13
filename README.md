@@ -7,9 +7,9 @@ The data in this project is mainly from Weibo and Bilibili.
 
 ### training word2vec model
 
-    python trainSynonym.py <filename>
+    python trainSynonym.py <dirname>
 
-file should be in json format like
+The script while handle the json files in <i> dirname </i> should be in json format like
 
     [
         {
@@ -24,12 +24,6 @@ file should be in json format like
 
 gensim.model.word2vec
 
-@online{Synonyms:hain2017,
-  author = {Hai Liang Wang, Hu Ying Xi},
-  title = {中文近义词工具包Synonyms},
-  year = 2017,
-  url = {https://github.com/huyingxi/Synonyms},
-  urldate = {2017-09-27}
-}
-
 jieba
+
+data from synonym
